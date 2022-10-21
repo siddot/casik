@@ -1,0 +1,61 @@
+.nav-item{
+    color: #95dbfd;
+    border-radius: 20%;
+}
+.nav-item:hover{
+    color: #95dbfd;
+    font-size: large;
+    font-weight: bold;
+    background-color: #265871;
+}
+
+.active-item{
+    background-color: #265871;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .menuNav {
+    margin: 0 36px 0 0;
+}
+
+.rightNav {
+    float: right;
+}
+
+.leftNav {
+    float: left;
+}
+
+
+.connectButtonContainer {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.buttonContainer {
+    background-color: #fff;
+    border-radius: 16px;
+    display: inline-block;
+}
+
+.buttonContainerTop {
+    margin-left: 175px;
+}
+
+.logo-img{
+    margin-left: 20px;
+} */

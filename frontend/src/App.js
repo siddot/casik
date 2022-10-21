@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Home from './components/Pages/Home';
+import Games from './components/Pages/Games';
+import Rating from './components/Pages/Rating';
+import CasikPage from './components/Pages/CasikPage';
+
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Router>
+            <Routes>
+                <Route path="/rating" element={<Rating/>}/>
+                <Route path="/games" element={<Games/>}/>
+                <Route path="/home" element={<Home/>}/>
+                <Route path="/games/123456"  element={<CasikPage/>}/>
+            </Routes>
+        </Router>
     </div>
   );
 }

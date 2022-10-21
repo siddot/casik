@@ -1,0 +1,29 @@
+.callBtns{
+    margin-top: 30px;
+}
+
+.text{
+    color: #cfefff;
+    font-weight: bold;
+}
+
+.playBtn{
+    /*background-image: url('../../images/btn_back.png');*/
+    background-color: #2db1a8;
+    color: #cfefff;
+    font-weight: bold;
+}
+
+.params{
+    list-style-type: none;
+}
+
+li{
+    justify-content: center;
+    display: flex;
+}
+
+.slot{
+    margin-top: 100px;
+    margin: auto;
+}

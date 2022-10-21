@@ -1,0 +1,29 @@
+.connectBtnOutline:hover{
+    color: #00d2d2;
+    border-color: #00e8b9;
+
+}
+
+.connectBtnOutline{
+    border-color: #00ffcc;
+    color:#00ffff;
+}
+
+
+
+/* .buttonContainer {
+    background-color: #fff;
+    border-radius: 16px;
+    display: inline-block;
+}
+
+.connectButton {
+    background-color: rgb(253, 234, 241) !important;
+    border-radius: 16px !important;
+    border: 1px solid #fff !important;
+    color: #02AEAE !important;
+}
+
+.connectButton:hover {
+    border-color: #039CC8 !important;
+} */

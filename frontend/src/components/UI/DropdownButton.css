@@ -1,0 +1,37 @@
+.dropdownBtnOutline:hover{
+    color: #00d2d2;
+    border-color: #00e8b9;
+    background-color: #256261;
+    font-weight: bolder;
+
+}
+
+.dropdownBtnOutline{
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    border-color: #00ebbc;
+    border-radius: 20%;
+    color:#01ffff;
+}
+
+.dropdown-back{
+    background-color: #2eb6ad;
+}
+
+.on-cursor:hover{
+    background-color: #279d95;
+}
+
+.social-media{
+    padding-right: 5px;
+}
+
+.social-media:hover{
+    color: rgb(2, 90, 74);
+}
+
+.links:hover{
+    background-color: #2eb6ad;
+}

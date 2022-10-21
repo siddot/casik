@@ -1,0 +1,67 @@
+
+
+.text{
+    color: #cfefff;
+    font-weight: bold;
+}
+
+
+.callBtns{
+    margin-top: 30px;
+}
+
+.createBtn{
+    /*background-image: url('../../images/btn_back.png');*/
+    background-color: #2db1a8;
+    color: #cfefff;
+    font-weight: bold;
+
+}
+
+.playBtn{
+    /*background-image: url('../../images/btn_back.png');*/
+
+    background-color: #2db1a8;
+
+    color: #cfefff;
+    font-weight: bold;
+
+}
+
+.playBtn:hover{
+    font-weight: bolder;
+    font-size: 18px;
+    color: #cfefff;
+    border: #26757D;
+    background-color: #2db1a8;
+}
+
+.createBtn:hover{
+    font-weight: bolder;
+    font-size: 18px;
+    color: #cfefff;
+    border: #26757D;
+    background-color: #2db1a8;
+}
+
+
+
+
+
+
+/* .img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.auctionCall{
+    margin: 10% 36px 0 0;
+
+}
+
+.text{
+    color: white;
+} */

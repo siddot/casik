@@ -1,0 +1,20 @@
+.network-btn{
+    border: #00ffcc;
+    color:#8fffff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.network-btn:hover{
+    background-color: #368891;
+    color: #8fffff;
+    font-weight: bolder;
+}
+
+.dropdown-back{
+    background-color: #2eb6ad;
+}
+
+.on-cursor:hover{
+    background-color: #279d95;
+}

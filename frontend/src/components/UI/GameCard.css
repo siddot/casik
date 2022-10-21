@@ -1,0 +1,35 @@
+.creator{
+    text-align: left;
+}
+
+.id{
+    text-align: left;
+}
+
+.info{
+    text-align: left;
+}
+
+.pool-params{
+    list-style-type: none;
+}
+
+.play-btn{
+    background-color: rgb(83, 170, 141);
+    color: rgb(188, 255, 255);
+}
+
+.play-btn:hover{
+    background-color: rgb(94, 192, 159);
+    color: rgb(188, 255, 255);
+    font-weight: bold;
+
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin-right: 36px;
+    margin-bottom: 24px;
+}
+  

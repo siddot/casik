@@ -9,7 +9,7 @@ const GameCard = () => {
                 <h6 className="card-subtitle mb-2 text-muted id">#123456</h6> 
             </div>
             <div className="card-body info">
-                <ul className="pool-params">
+                <ul className="params">
                     <li>winning symbol: 777</li>
                     <li>prize pool: 10 ETH</li>
                     <li>% to winner: 90 %</li>

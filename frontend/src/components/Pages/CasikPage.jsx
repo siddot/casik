@@ -11,7 +11,7 @@ const CasikPage = () => {
             <Navbar/>
             <div className="container">
                 <h1 className="text">123456</h1>
-                <ul className="params">
+                <ul className="pool-params">
                     <li>winning symbol: 777</li>
                     <li>prize pool: 10 ETH</li>
                     <li>% to winner: 90%</li>

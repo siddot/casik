@@ -17,6 +17,10 @@
 .params{
     list-style-type: none;
 }
+.pool-params{
+    list-style-type: none;
+    color: white;
+}
 
 li{
     justify-content: center;

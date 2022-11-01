@@ -9,12 +9,12 @@ const Navbar = (props) => {
     return(
         <div className="container">
             <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
-                <a href="/" className="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <a href="/home" className="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
                     <img src={logo} height="50" width="50" />
                 </a>
         
                 <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="/" className={props.activeItem === "Main" ? "nav-item active-item nav-link px-2" : "nav-item nav-link px-2"}>Main</a></li>
+                    {/*<li><a href="/" className={props.activeItem === "Main" ? "nav-item active-item nav-link px-2" : "nav-item nav-link px-2"}>Main</a></li>*/}
                     <li><a href="/home" className={props.activeItem === "Home" ? "nav-item active-item nav-link px-2" : "nav-item nav-link px-2"}>Home</a></li>
                     <li><a href="/games" className={props.activeItem === "Games" ? "nav-item active-item nav-link px-2" : "nav-item nav-link px-2"}>Games</a></li>
                     <li><a href="/rating" className={props.activeItem === "Rating" ? "nav-item active-item nav-link px-2" : "nav-item nav-link px-2"}>Rating</a></li>

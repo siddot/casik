@@ -11,7 +11,7 @@ const DropdownButton = props => {
   
     return (
       <div className="btn-group">
-        <button type="button" className="btn dropdownBtnOutline" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">...</button>
+        <button type="button" className="btn dropdownBtnOutline" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">...</button>
         <ul className="dropdown-menu dropdown-back">
           <li><a className="dropdown-item on-cursor" href="#">Language</a></li>
           <hr></hr>

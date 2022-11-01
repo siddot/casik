@@ -20,7 +20,7 @@ const Navbar = (props) => {
                     <li><a href="/rating" className={props.activeItem === "Rating" ? "nav-item active-item nav-link px-2" : "nav-item nav-link px-2"}>Rating</a></li>
                 </ul>
         
-                <div className="col-md-3 text-end">
+                <div className="col-md-6 text-end">
                     <NetworkButton/>
                     <ConnectButton/>
                     <DropdownButton/>

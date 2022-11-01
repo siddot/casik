@@ -13,7 +13,9 @@ const NetworkButton = () => {
 
             <ul class="dropdown-menu dropdown-menu-lg-end dropdown-back">
                 <li><a class="dropdown-item on-cursor" href="#">Ethereum</a></li>
+                <hr></hr>
                 <li><a class="dropdown-item on-cursor" href="#">Polygon</a></li>
+                <hr></hr>
                 <li><a class="dropdown-item on-cursor" href="#">Optimism</a></li>
 
             </ul>
